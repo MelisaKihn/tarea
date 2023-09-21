@@ -1,10 +1,49 @@
-body {background-color: #FEFDCB}
+body {background-color: #FEFDCB; }
 h2 {color: #FE9F45;}
 h2 {text-decoration: underline;}
 h2 {font-size: x-large;
-      text-align: center; font-family: sans-serif;
-}
+      text-align: left; font-family: sans-serif;
+    }
 h1 {text-align: center; text-decoration: underline;
   font-family: sans-serif;
-   color:#FE9F45}
-img {height: 300px; width: 500px}
+   color:#FE9F45;}
+   p {font-size: 1.1rem; text-align: justify;}
+   ul {font-size: 1.1rem;}
+   ol {font-size: 1.1rem;}
+img {height: 300px; width: 500px; padding-left: 200px;}
+iframe {padding-left: 170px;}
+.mapa{padding-left: 240px;}
+audio {padding-left: 280px;}
+header {background-color: white; width: 50%; margin-left: 300px;}
+section {background-color: #FEDEA5; width: 75%; padding: 10px 50px; margin-left: 100px; margin-top: 20px;}
+
+.nav {background-color: orange; font-size: 1.5rem; display: inline-flex; margin-left: 100px;}
+.nav a {text-decoration: none; color: white; padding: 0 50px; border-radius: 10px;}
+.nav a:hover {background-color: white; color: orange}
+
+.footer {width: 100%; height: 4em; background: orange; display: flex;
+  flex-direction: row; justify-content: center;
+    align-items: center;}
+.text-footer {font-size: 2em;}
+.iconos {display: flex; justify-content: center; gap: 20px; }
+.iconos a {font-size: 50px;}
+.facebook {color: blue;}
+.instagram {color: #E1306C;}
+.twiter { color: black;}
+.iconos a:hover {transform: scale(1.2);}
+
+.boton-wsp { position: fixed;
+             width: 55px;
+             height: 55px;
+             line-height: 55px;
+             bottom: 30px;
+             right: 30px;
+             background: #0df053;
+             color: white;
+             border-radius: 50px;
+             text-align: center;
+             font-size: 30px;
+             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+             z-index: 100;}
+
+.boton-wsp:hover {text-decoration: none; color: #0df053; background: white;}             
