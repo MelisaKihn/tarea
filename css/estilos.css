@@ -2,28 +2,33 @@ body {background-color: #FEFDCB; }
 h2 {color: #FE9F45;}
 h2 {text-decoration: underline;}
 h2 {font-size: x-large;
-      text-align: left; font-family: sans-serif;
+    font-family: sans-serif;
     }
-h1 {text-align: center; text-decoration: underline;
-  font-family: sans-serif;
+h1 {text-decoration: none; font-family: sans-serif;
    color:#FE9F45;}
    p {font-size: 1.1rem; text-align: justify;}
    ul {font-size: 1.1rem;}
    ol {font-size: 1.1rem;}
-img {height: 300px; width: 500px; padding-left: 200px;}
-iframe {padding-left: 170px;}
-.mapa{padding-left: 240px;}
-audio {padding-left: 280px;}
-header {background-color: white; width: 50%; margin-left: 300px;}
-section {background-color: #FEDEA5; width: 75%; padding: 10px 50px; margin-left: 100px; margin-top: 20px;}
+img {height: 300px; width: 500px;}
+header {background-color: white;
+   width: auto; height: 200px;
+  display: flex; justify-content: center;
+  display: flex; justify-content: space-around;
+   align-items: center; flex-wrap: wrap;}
+.logo {width: 100px; height: 100px;}
+section {background-color: #FEDEA5; width: auto; padding: 20px;  margin-top: 20px;
+   }
 
-.nav {background-color: orange; font-size: 1.5rem; display: inline-flex; margin-left: 100px;}
-.nav a {text-decoration: none; color: white; padding: 0 50px; border-radius: 10px;}
+.nav {background-color: orange; font-size: 1.5rem; display: inline-flex; display: flex; justify-content: space-around;
+  width: auto;}
+.nav a {text-decoration: none; color: white;  border-radius: 6px;}
 .nav a:hover {background-color: white; color: orange}
 
-.footer {width: 100%; height: 4em; background: orange; display: flex;
+.footer {width: 100%; height: 5em; background: orange; display: flex;
   flex-direction: row; justify-content: center;
-    align-items: center;}
+    align-items: center;
+  justify-content: space-around; flex-wrap: wrap;
+}
 .text-footer {font-size: 2em;}
 .iconos {display: flex; justify-content: center; gap: 20px; }
 .iconos a {font-size: 50px;}
@@ -46,4 +51,7 @@ section {background-color: #FEDEA5; width: 75%; padding: 10px 50px; margin-left:
              box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
              z-index: 100;}
 
-.boton-wsp:hover {text-decoration: none; color: #0df053; background: white;}             
+.boton-wsp:hover {text-decoration: none; color: #0df053; background: white;}
+.mapita {
+width: 80px; height: 80px;
+}
