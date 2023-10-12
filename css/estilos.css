@@ -4,7 +4,7 @@
 body {width: 100vw; font-family: 'Poppins', sans-serif;}
 h2 {color: #FE9F45; font-family: 'Poppins', sans-serif; }
 h2 {text-decoration: underline;}
-h2 {font-size: x-large;
+h2 {font-size: 1rem;
       text-align: left; 
     }
 
@@ -16,8 +16,6 @@ h1 {text-align: center; text-decoration: underline;
     ol {font-size: 1.1rem;
 }
 img {height: 300px; width: 500px; }
-iframe {}
-.mapa{}
 
 header {background-color: white; width: 100vw; height: 10%;
     display: flex; justify-content: center;
@@ -28,15 +26,15 @@ section {background-color: #FEDEA5; width: 75%; padding: 10px 50px; margin-top: 
 img {width: 90%; height: auto;}
 iframe {width: 90%; height: auto;}
 .logo {width: 80px; height: 80px;}
-.contenedor {display: inline-flex; flex-wrap: wrap; justify-content: space-around; width: 100vw; }
-section {background-color: #FEDEA5; width: 60%; height: auto; padding: 20px;  margin-top: 20px; 
+.contenedor {display: flex; flex-wrap: wrap; justify-content: space-around; justify-content: center; width: 99vw; }
+section {background-color: #FEDEA5; width: 60%; height: auto; padding: 1%;  margin-top: 1%; 
    }
-aside {width: 35%; margin-top: 20px;}   
-.nav a {text-decoration: none; color: white;  border-radius: 10px;}
-.nav {background-color: orange; font-size: 1.2rem; display: inline-flex; display: flex; justify-content: space-around; align-items: center;
-    width: 100vw; height: 6%;}   
+aside {width: 35%; margin-top: 1%; display: flex; flex-direction: column; align-items: center;}   
+.nav a {text-decoration: none; color: white;  border-radius: 10px; font-size: 1.1rem;}
+.nav {background-color: orange; font-size: 1.1rem; display: flex; justify-content: space-around; align-items: center;
+    width: 100vw; height: 6%; flex-wrap: wrap;}   
 .nav a:hover {background-color: white; color: orange}
-.mas_recetas {font-size: 1.2em;}
+.mas_recetas {font-size: 1.1em;}
 .footer {width: 100vw; height: 30%; background: orange; display: flex;
       flex-direction: row; justify-content: center;
         align-items: center;
@@ -63,7 +61,21 @@ aside {width: 35%; margin-top: 20px;}
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     z-index: 100;}
 .boton-wsp:hover {text-decoration: none; color: #0df053; background: white;}             
-.boton-wsp:hover {text-decoration: none; color: #0df053; background: white;}
-.mapita {
-    width: 150px; height: 150px; display: flex; align-items: center;
-    }    
+.mapita {width: 20%; display: flex; align-items: center;}    
+
+@media (max-width: 767px) {section {background: #faf2ad;}
+}
+@media (max-width: 767px) {audio {display: none;}
+}
+@media (max-width: 575px) {aside {width: 100%;}
+}
+@media (max-width: 575px) {section {width: 100%; padding-left: 2%; padding-right: 2%;}
+}
+@media (max-width: 575px) {nav a {font-size: 0.9rem;}
+}
+@media (max-width: 575px) {nav {font-size: 0.9rem;}
+}
+@media (max-width: 575px) {iframe {display: none;}
+}
+@media (max-width: 575px) {.iconos a {font-size: 21px;}
+}
