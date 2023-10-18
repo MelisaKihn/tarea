@@ -1,10 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {width: 100vw; font-family: 'Poppins', sans-serif;}
-h2 {color: #FE9F45; font-family: 'Poppins', sans-serif; }
-h2 {text-decoration: underline;}
-h2 {font-size: 1rem;
+body { font-family: 'Poppins', sans-serif;}
+h2 {color: #fd810e; font-family: 'Poppins', sans-serif; }
+h2 {text-decoration: none;}
+h2 {font-size: 1.2rem;
       text-align: left; 
     }
 
@@ -30,11 +30,11 @@ iframe {width: 90%; height: auto;}
 section {background-color: #FEDEA5; width: 60%; height: auto; padding: 1%;  margin-top: 1%; 
    }
 aside {width: 35%; margin-top: 1%; display: flex; flex-direction: column; align-items: center;}   
-.nav a {text-decoration: none; color: white;  border-radius: 10px; font-size: 1.1rem;}
-.nav {background-color: orange; font-size: 1.1rem; display: flex; justify-content: space-around; align-items: center;
+.nav a {text-decoration: none; color: white;  border-radius: 10px; font-size: 1.3rem;}
+.nav {background-color: orange; font-size: 1.5rem; display: flex; justify-content: space-around; align-items: center;
     width: 100vw; height: 6%; flex-wrap: wrap;}   
 .nav a:hover {background-color: white; color: orange}
-.mas_recetas {font-size: 1.1em;}
+
 .footer {width: 100vw; height: 30%; background: orange; display: flex;
       flex-direction: row; justify-content: center;
         align-items: center;
@@ -62,6 +62,12 @@ aside {width: 35%; margin-top: 1%; display: flex; flex-direction: column; align-
     z-index: 100;}
 .boton-wsp:hover {text-decoration: none; color: #0df053; background: white;}             
 .mapita {width: 20%; display: flex; align-items: center;}    
+.tarjeta {background-color: #FEDEA5;   
+}
+.card-title {color:#fd810e; display: flex; justify-content: center;}
+.boton_card {background-color: #fd810e; color:black; border: none; display: flex; 
+  justify-content: center;
+}
 
 @media (max-width: 767px) {section {background: #faf2ad;}
 }
